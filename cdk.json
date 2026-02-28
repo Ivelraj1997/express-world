@@ -1,5 +1,5 @@
 {
-  "app": "node index.js",
+  "app": "node ./infrastructure/bin/infrastructure.js",
   "context": {
     "@aws-cdk/core:bootstrapQualifiers": "hnb659fds"
   }
