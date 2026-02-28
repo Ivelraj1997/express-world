@@ -20,6 +20,7 @@ class InfrastructureStack extends Stack {
           'npm install',
           'npx cdk synth -v',    // This will now work because cdk.json exists
         ],
+        primaryOutputDirectory: '.',
       }),
     });
 
