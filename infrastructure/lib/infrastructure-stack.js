@@ -18,7 +18,7 @@ class InfrastructureStack extends Stack {
           'n 22',             // Explicitly switch to Node 22 to stop the warnings
           'node -v',          // Verify version
           'npm install',
-          'npx cdk synth',    // This will now work because cdk.json exists
+          'npx cdk synth -v',    // This will now work because cdk.json exists
         ],
       }),
     });
